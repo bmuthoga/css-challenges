@@ -1,0 +1,23 @@
+body {
+  background: #293462;
+}
+div {
+  background: #fff1c1;
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  border-radius: 100px 100px 40px 40px;
+  box-shadow: 0 45px 0 -35px #a64942;
+}
+div:after {
+  content: "";
+  width: 30px;
+  height: 40px;
+  background: #fe5f55;
+  position: absolute;
+  top: 160px;
+  left: 35px;
+  border-radius: 0 0 10px 10px;
+}
