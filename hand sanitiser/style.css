@@ -1,0 +1,62 @@
+body {
+  background: #1a4341;
+}
+.bottle {
+  background: #f3ac3c;
+  width: 100px;
+  height: 60px;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  top: 110px;
+  left: 150px;
+}
+.bottle:before {
+  content: "";
+  position: absolute;
+  background: #998235;
+  width: 100px;
+  height: 80px;
+  border-radius: 0 0 20px 20px;
+  top: 60px;
+}
+.bottle:after {
+  content: "";
+  position: absolute;
+  background: #998235;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 30px;
+  box-shadow: 50px 0 #f3ac3c, 115px -55px 0 -15px #998235,
+    115px -25px 0 -15px #998235;
+}
+.handle {
+  background: #f3ac3c;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  top: 90px;
+  left: 175px;
+}
+.handle:before {
+  content: "";
+  position: absolute;
+  background: #f3ac3c;
+  width: 20px;
+  height: 40px;
+  top: -28px;
+  left: 15px;
+  border-radius: 10px;
+  box-shadow: 90px -12px #f3ac3c;
+}
+.handle:after {
+  content: "";
+  position: absolute;
+  background: #f3ac3c;
+  width: 150px;
+  height: 20px;
+  border-radius: 10px;
+  top: -40px;
+  left: -25px;
+}
