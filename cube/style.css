@@ -1,0 +1,32 @@
+body {
+  background: #0b2429;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: #f3ac3c;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 64.5px;
+  left: 150px;
+}
+div:before {
+  content: "";
+  width: 100px;
+  height: 50px;
+  background: #998235;
+  position: absolute;
+  transform: rotate(90deg) skew(-45deg);
+  top: 0px;
+  left: -75px;
+}
+div:after {
+  content: "";
+  width: 100px;
+  height: 50px;
+  background: #1a4341;
+  position: absolute;
+  transform: skew(45deg);
+  bottom: 100px;
+  right: 25px;
+}
