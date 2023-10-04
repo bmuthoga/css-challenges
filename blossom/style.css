@@ -1,0 +1,26 @@
+body {
+  background: #998235;
+}
+div {
+  background: #f3ac3c;
+  width: 80px;
+  height: 60px;
+  border-radius: 0 50px;
+  position: absolute;
+  bottom: 60px;
+  left: 110px;
+  box-shadow: 0 -80px #1a4341, 0 -90px #1a4341, 0 -100px #1a4341,
+    0 -110px #1a4341, 0 -120px #1a4341;
+}
+div:after {
+  content: "";
+  background: #f3ac3c;
+  width: 80px;
+  height: 60px;
+  border-radius: 50px 0;
+  position: absolute;
+  top: -120px;
+  left: 100px;
+  box-shadow: 0 80px #1a4341, 0 90px #1a4341, 0 100px #1a4341, 0 110px #1a4341,
+    0 120px #1a4341;
+}
