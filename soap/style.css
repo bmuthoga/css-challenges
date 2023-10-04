@@ -1,0 +1,23 @@
+body {
+  background: #293462;
+}
+.soap {
+  width: 200px;
+  height: 100px;
+  background: #fe5f55;
+  border-radius: 20px;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  box-shadow: 0 20px #a64942;
+}
+.soap:after {
+  content: "";
+  width: 140px;
+  height: 40px;
+  background: #a64942;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 50px;
+}
